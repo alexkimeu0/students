@@ -123,5 +123,13 @@ td:last-child {
 
 .delete {
     border-radius: 0;
-    background-color: rgb(143, 3, 3);
+    color: rgb(111, 0, 46);
+    margin: 0;
+    padding: 0;
+    outline-width: 0;
+    background-color: whitesmoke;
+}
+
+.edit {
+    color: #101522;    
 }

@@ -27,9 +27,8 @@
                         <td>{{$course->course_id}}</td>
                         <td>{{$course->courseName}}</td>    
                         <td>
-                            <a href="/course/{{$course->id}}/edit">
+                            <a href="/course/{{$course->id}}/edit" class="edit">
                                 <i class="fas fa-edit"></i>
-                                edit
                             </a>
                             <form action="/course/{{$course->id}}" method="POST" style="display: inline;">
                                 @csrf

@@ -31,9 +31,8 @@
                         <td>{{$student->firstName}}</td>    
                         <td>{{$student->lastName}}</td>   
                         <td>
-                            <a href="/student/{{$student->id}}/edit">
+                            <a href="/student/{{$student->id}}/edit" class="edit">
                                 <i class="fas fa-edit"></i>
-                                edit
                             </a>
                             <form action="/student/{{$student->id}}" method="POST" style="display: inline;">
                                 @csrf
